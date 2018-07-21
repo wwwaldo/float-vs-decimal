@@ -1,5 +1,5 @@
 # float-vs-decimal
-Checks if a decimal value has exact representation in floating point.
+Checks if a decimal value has exact representation in floating point (well, to machine epsilon, anyway).
 
 # Why?
 32, 64-bit floating point is internally represented with base 2 instead of base 10, and this is the source of many representation errors. It can be confusing to learn about floating point arithmetic when you don't even know the true values of the floats you're adding!
