@@ -18,21 +18,21 @@ on Linux, OSX, or even Linux Subsystem for Windows.
 
 # Example Usage
 Assuming `float_comp` is on your PATH:
-> >>> float_comp 1 # Exactly representible
+> \>\>\> float_comp 1 # Exactly representible
 > 1
 > 1
 >
-> >>> float_comp 1.1 # Not exactly representable; prints closest float
+> \>\>\> float_comp 1.1 # Not exactly representable; prints closest float
 > 1.1
 > 1.10000002
 >
-> >>> float_comp 1 2 # We can handle lists!
+> \>\>\> float_comp 1 2 # We can handle lists!
 > 1
 > 1
 > 2
 > 2
 >
-> >>> float_comp 1.0 # Exactly representible, but trailing zeroes are not handled
+> \>\>\> float_comp 1.0 # Exactly representible, but trailing zeroes are not handled
 > 1.0
 > 1
 
