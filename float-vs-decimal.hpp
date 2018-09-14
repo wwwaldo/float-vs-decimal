@@ -17,6 +17,8 @@ typedef std::numeric_limits< double > dbl;
 
 enum ftdOpt { SINGLE_PRECISION, DOUBLE_PRECISION };
 
+// Print input string `original` to output stream `os`
+// and also its closest corresponding float/double, depending on opt specified
 bool bar( std::ostream& os, ftdOpt opt, std::string original ){
 	std::stringstream stream;
 	stream.str("");
