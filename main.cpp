@@ -7,7 +7,7 @@
 enum  optionIndex { UNKNOWN, HELP, DOUBLE };
 const option::Descriptor usage[] =
 {
- {UNKNOWN, 0, "", "",option::Arg::None, "USAGE: float-vs-decimal [options]\n\n"
+ {UNKNOWN, 0, "", "",option::Arg::None, "USAGE: float-vs-decimal [--double | -d | --help ] strings \n\n"
                                         "Options:" },
  {HELP, 0,"", "help",option::Arg::None, "  --help  \tPrint usage and exit." },
  {DOUBLE, 0,"d","double",option::Arg::None, "  --double, -d  \tUse double precision." },
